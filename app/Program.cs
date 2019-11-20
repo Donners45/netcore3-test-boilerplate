@@ -1,4 +1,5 @@
 ﻿using System;
+using domain;
 
 namespace app
 {
@@ -6,7 +7,14 @@ namespace app
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            var @object = new SomeClass
+            {
+                SomeProperty = "Hello World!"
+            };
+
+
+            Console.WriteLine($"{@object.SomeProperty}, from {nameof(@object)}.");
         }
     }
 }
