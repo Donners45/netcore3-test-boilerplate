@@ -5,7 +5,7 @@ using Xunit;
 
 namespace test
 {
-    public class UnitTest1
+    public class SomeTest
     {
         [Fact]
         public void Instantiate_SomeObject_NotNull()

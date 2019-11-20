@@ -2,7 +2,7 @@
 
 namespace domain
 {
-    public class SomeObject
+    public class SomeClass
     {
         public string SomeProperty { get; set; }
     }
